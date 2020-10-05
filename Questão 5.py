@@ -2,7 +2,7 @@
 
 cadastros = inferior = entre = superior = 0
 
-for c in range(10):
+for cadastros in range(3):
     altura = float(input('altura: '))
 if altura < 1.6:
     inferior += 1
@@ -13,7 +13,7 @@ else:
 
 print(f'''
 
-Foram cadastradas {cadastros} pessoas.
+Foram cadastradas {cadastros+1} pessoas.
 
 Pessoas com altura < 1,60 metros: {inferior}
 
